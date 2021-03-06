@@ -18,11 +18,11 @@ v_req = e_r1 + e_r2;
 if(v_req != 0){
   
   s_corrente = e_fonte / v_req;
-  printf("A corrente total: %f \n", s_corrente);
+  printf("A corrente total: %f [A]\n", s_corrente);
   s_tensao_r1 = s_corrente * e_r1;
-  printf("A tensão em R1: %f \n", s_tensao_r1);
+  printf("A tensão em R1: %f [V]\n", s_tensao_r1);
   s_tensao_r2 = s_corrente * e_r2;
-  printf("A tensão em R2: %f \n", s_tensao_r2);
+  printf("A tensão em R2: %f [V]\n", s_tensao_r2);
   
 }else {
   printf("ERRO\n");
