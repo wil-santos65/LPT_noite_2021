@@ -1,0 +1,17 @@
+
+Algoritmo:
+1-	Entre com o valor do primeiro número (nro_1);
+2-	Entre com o valor do segundo número (nro_2);
+3-	Entre com o valor do terceiro número (nro_3);
+4-	nro_1 > nro_2?;
+5-	se sim, nro_2 > nro_3?;
+6-	se sim, mostrar ao usuário: “nro_1, nro_2, nro_3”;
+7-	se não, nro_1 > nro_3?;
+8-	se sim, mostrar ao usuário: “nro_1, nro_3, nro_2”;
+9-	se não, mostrar ao usuário: “nro_3, nro_1, nro_2”;
+10-	nro_1 > nro_2?;
+11-	se não, nro_1 > nro_3?;
+12-	se sim, mostrar ao usuário: “nro_2, nro_1, nro_3”;
+13-	se não; nro_2> nro_3?;
+14-	se sim, mostrar ao usuário: “nro_2, nro_3, nro_1”;
+15-	se não, mostrar ao usuário: “nro_3, nro_2, nro_1”;
