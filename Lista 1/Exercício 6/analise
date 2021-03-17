@@ -1,0 +1,21 @@
+Analise  
+Entradas:
+- diâmetro 
+- comprimento [cm]
+- tipo de material:
+Código	Material 	Restividade a 20°C [Ωcm]	Coeficiente de temperatura
+1	       Prata	      1,59.10^-6	                  0,038
+2	       Cobre	      1,72.10^-6	                  0,039
+3	       Ouro	        2,44.10^-6	                  0,034
+4	       Alumínio	    2,92.10^-6	                  0,039
+5	       Tungstênio 	5,6.10^-6	                    0,045
+
+- temperatura de uso [°C]
+
+Sequencia de execução: 
+1-	calcular área= π * (diam/2)² 
+2-	calcular resistência: R= resistividade do material * comprimento / área
+3-	calculo da resistividade em temperatura: ρ = R * [1 + (coeficiente de temp.) * (temperatura de uso – temperatura de referencia)]
+
+Saída 
+Mostrar resultado do calculo 
