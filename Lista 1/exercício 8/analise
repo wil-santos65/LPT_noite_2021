@@ -1,0 +1,16 @@
+8 - Faça a analise, o algoritmo e o código que calcule a resistência equivalente de 4 resistores em paralelo
+Analise: 
+Entradas: 
+•	resistor 1 (R1) [ohm}
+•	resistor 2 (R2) [ohm}
+•	resistor 3 (R3) [ohm}
+•	resistor 4 (R4) [ohm}
+Sequência de ações: 
+•	calcule: “saída_rq1 = (entrada_r1 * entrada_r2) / (entrda_r1 + entrada_r2)”
+                       “saída_rq2 = (entrada_r3 * entrada_r4) / (entrda_r3 + entrada_r4)”
+                        “saída_reqt = (saída_req1 * saída_req2) / (saída_req1 + saída_req2)”
+
+Saída 
+           Saída_rq1
+            Saída_req2 
+           mostre ao usuário “saída_reqt”
