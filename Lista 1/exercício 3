@@ -1,1 +1,53 @@
+3- Faça a analise, levante os pré-requisitos, o algoritmo e o código que armazene o valor 10 em uma variável A e o valor 20 em uma variável B. A seguir, troque os seus conteúdos fazendo com que o valor que está em A passe para B e vice-versa. Ao final, escrever os valores que ficaram armazenados nas variáveis.
+
+Análise
+
+var_a = 10
+var_b = 20             
+valores pré-definido pelo exercício e armazenados nas variáveis 
+
+Resolução
+var_a = 20
+var_b = 10 
+conteúdos trocado mostrar ao usuário 
+
+Algoritmo 
+
+1-	Mostrar ao usuário valor da var_a = 10;
+2-	Mostrar ao usuário valor da var_b = 20;
+3-	Armazenar var_a em var_tmp: var_tmp = var_a;
+4-	Calcule o novo valor de var_a: var_a = var_b;
+5-	Calcule o novo valor de var_b: var_b = var_tmp;
+6-	Mostre o valor de var_a;
+7-	Mostre o valor de var_b;
+
+
+Código em C
+
+#include <stdio.h>
+
+int main(void) {
+
+  //Declaração de variaveis
+  int var_a, var_b, var_tmp;
+
+  //Valores definidos pelo exercício
+  var_a = 10;
+  var_b = 20;
+
+//Mostrar ao usuario os valores pré-definidos das variaveis
+printf("O valor da variavel A é: %i\n", var_a);
+printf("O valor da variavel B é: %i\n", var_b);
+
+//Calculo
+var_tmp = var_a;
+var_a = var_b;
+var_b = var_tmp;
+
+  //Mostrar ao usuario as variaveis trocadas 
+  printf("Variveis trocadas:\n");
+  printf("Variavel A: %i\n", var_a);
+  printf("Variavel B: %i\n", var_b);
+
+  return 0;
 
