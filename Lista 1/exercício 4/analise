@@ -1,0 +1,14 @@
+4 - Faça a analise, o algoritmo e o código que coloque 3 números inteiros quaisquer em ordem decrescente.
+
+Análise 
+Exemplo: 
+
+Entradas nro_1 = 5                                        saída: nro_3, nro_1, nro_2
+         nro_2 = 1
+         nro_3 = 20  
+
+
+                                             ENTRADAS                                                          SAÍDA
+                                          nro_1	nro_2	nro_3                                            	ORDEM DECRESCENTE 
+                                           {5}	{1}	{20}	                                                   {20, 5, 1}
+
