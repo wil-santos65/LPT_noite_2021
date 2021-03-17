@@ -1,1 +1,14 @@
+7 - Faça a analise, o algoritmo e o código que calcule a resistência equivalente de 4 resistores em série.
+
+Analise 
+Entradas: 
+•	resistor 1 (R1) [ohm}
+•	resistor 2 (R2) [ohm}
+•	resistor 3 (R3) [ohm}
+•	resistor 4 (R4) [ohm}
+Sequência de ações: 
+•	calcule: “saída_req = entrada_r1 + entrada_r2 + entrada_r3 + entrada_r4”
+Saída 
+•	mostre ao usuário “saída_req”
+
 
