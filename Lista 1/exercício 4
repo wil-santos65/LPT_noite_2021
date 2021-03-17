@@ -9,8 +9,8 @@ Entradas nro_1 = 5                                        saída: nro_3, nro_1, 
 
 
                                              ENTRADAS                                                          SAÍDA
-nro_1	nro_2	nro_3	ORDEM DECRESCENTE 
-5	1	20	20, 5, 1
+                                       nro_1	nro_2	nro_3	                                              ORDEM DECRESCENTE 
+                                           {5}	{1}	{20}	                                                   {20, 5, 1}
 
 
 Algoritmo:
