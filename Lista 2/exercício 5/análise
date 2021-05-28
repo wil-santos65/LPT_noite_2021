@@ -1,0 +1,21 @@
+Analise exercício 5
+
+Entrada	                                Saídas
+Temperatura atual 	                    ligar ventoinha
+	                                      Desligar ventoinha
+
+1-	Insira a temperatura atual;
+2-	Enquanto temperatura atual <= 90:
+•	Mostar: “temperatura atual”;
+•	Temperatura atual ++;
+3-	Se temperatura atual > 90:
+•	Mostrar: “ACIONAR VENTOINHA”;
+•	Enquanto temperatura atual > 70:
+    Temperatura atual --;
+     Mostrar: “temperatura atual”;
+     
+     Se temperatura atual == 70:
+          Mostrar: “DESLIGAR VENTOINHA”;
+
+4-	Repetir indefinidamente a partir do processo 2.
+
