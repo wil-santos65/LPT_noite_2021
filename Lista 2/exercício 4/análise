@@ -1,0 +1,10 @@
+Analise exercício 4
+
+LED	       ACESO	APAGADO	 TEMPO
+VERDE	      1	      0	      2 segundos
+VERMELHO	  0	      1	      2 segundos
+
+1-	Led verde deve permanecer aceso por 2 segundos, enquanto o vermelho está apagado;
+2-	Após dois segundos o led verde deve apagar e o led vermelho deve ser aceso;
+3-	Este processo se repetira indefinidamente.
+
