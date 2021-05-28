@@ -1,0 +1,14 @@
+Analise exercício 3
+
+Entrada	Processo 1	Processo 2	Processo 3	Processo 4	saída
+1	        1 > 3				                                    9
+3		                3 > 9		                            	8
+9			                           9 > 8		                5
+8				                                     9 > 5	      3
+5					                                                1
+
+1-	Comparar o primeiro valor com o segundo;
+2-	Guardar o maior valor e comparar com o próximo;
+3-	Repetir o processo até comparar todos os valores;
+4-	Mostrar em ordem decrescente;
+
