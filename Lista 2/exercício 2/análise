@@ -1,0 +1,26 @@
+Analise exercício 2
+1-	Somar um na unidade até 9;
+2-	Fazer produto = unidade * dezena * centena
+3-	Quando a unidade atingir o valor 9: 
+•	Zerar unidade, atribuir zero a unidade
+•	 acrescentar + 1 na dezena
+•	Fazer produto = unidade * dezena * centena
+4-	Quando a dezena atingir o valor 9:
+•	Zerar a dezena, atribuir zero a dezena
+•	Acrescentar +1 na centena
+•	Fazer produto = unidade * dezena * centena
+5-	Repetir processo enquanto produto < 729;
+
+
+	              Centena 	Dezena	Unidade 	Produto
+	                 1	     0	      0	       0
+soma			                          ++	
+	                 1	     0	      1	       0
+soma			                          ++	
+	                 1	     0	      2	       0
+	                ...   	...	    ...	      ...
+                  	1	     0	      9	       0
+soma		                  ++	      0	
+	                  1	     1	      0	       0
+soma			                          ++	
+	                  1      1	      1	       1
